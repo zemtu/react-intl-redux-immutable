@@ -1,7 +1,7 @@
 {
-  "name": "react-intl-redux",
+  "name": "react-intl-redux-immutable",
   "version": "0.0.7",
-  "description": "Redux binding for React Intl",
+  "description": "Redux binding for React Intl with immutable",
   "main": "lib/index",
   "scripts": {
     "build": "babel src --out-dir lib",
@@ -42,7 +42,7 @@
     "rimraf": "^2.5.2",
     "should": "^8.3.1"
   },
-  "repository": "ratson/react-intl-redux",
+  "repository": "zemtu/react-intl-redux-immutable",
   "license": "MIT",
   "files": [
     "*.md",
