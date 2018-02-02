@@ -1,6 +1,7 @@
 import {connect, Provider as ReduxProvider} from 'react-redux'
 import {IntlProvider} from 'react-intl'
-import React, {PropTypes} from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
 
 const Provider = ({store, ...props}) => {
     return (

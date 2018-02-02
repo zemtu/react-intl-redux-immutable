@@ -11,6 +11,7 @@
     "test": "mocha --compilers js:babel-register --recursive ./test/*.spec.js"
   },
   "dependencies": {
+    "immutable": "^3.8.2",
     "react-intl": "^2.1.0",
     "react-redux": "^4.4.5",
     "redux": "^3.5.1"
@@ -38,6 +39,7 @@
     "eslint-plugin-react": "^5.0.1",
     "mocha": "^2.4.5",
     "npm-run-all": "^1.7.0",
+    "prop-types": "^15.6.0",
     "react": "^15.0.1",
     "rimraf": "^2.5.2",
     "should": "^8.3.1"
