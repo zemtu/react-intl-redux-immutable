@@ -1,6 +1,6 @@
 {
   "name": "react-intl-redux-immutable",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Redux binding for React Intl with immutable",
   "main": "lib/index",
   "scripts": {
@@ -8,6 +8,7 @@
     "clean": "rimraf lib dist coverage",
     "lint": "eslint .",
     "prepublish": "npm-run-all clean build",
+    "postinstall": "npm run build",
     "test": "mocha --compilers js:babel-register --recursive ./test/*.spec.js"
   },
   "dependencies": {
@@ -44,7 +45,7 @@
     "rimraf": "^2.5.2",
     "should": "^8.3.1"
   },
-  "repository": "zemtu/react-intl-redux-immutable",
+  "repository": "downeyfe/react-intl-redux-immutable",
   "license": "MIT",
   "files": [
     "*.md",
