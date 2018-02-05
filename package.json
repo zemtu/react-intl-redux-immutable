@@ -46,7 +46,7 @@
     "rimraf": "^2.5.2",
     "should": "^8.3.1"
   },
-  "repository": "downeyfe/react-intl-redux-immutable",
+  "repository": "zemtu/react-intl-redux-immutable",
   "license": "MIT",
   "files": [
     "*.md",
